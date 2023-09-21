@@ -7,9 +7,8 @@ import numpy as np
 # top file is Data/1hz3_T310.start.nowater.gro
 # trajectory file is Data/1hz3_T310.stepid25000000.every100ps.nowater.xtc
 
-#traj = md.load_xtc('Data/1hz3_T310.stepid25000000.every100ps.nowater.xtc', top='Data/1hz3_T310.start.nowater.gro')
-traj = md.load_xtc('1hz3_T310.stepid25000000.every100ps.nowater.xtc', top='1hz3_T310.start.nowater.gro')
-print(traj)
+traj = md.load_xtc('Data/1hz3_T310.stepid25000000.every100ps.nowater.xtc', top='Data/1hz3_T310.start.nowater.gro')
+
 def end_end(traj):
     """Compute the end to end distance of a trajectory"""
     # get the positions of the first and last atoms
