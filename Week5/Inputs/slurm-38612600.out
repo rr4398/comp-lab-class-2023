@@ -1,0 +1,604 @@
+                      :-) GROMACS - gmx grompp, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx grompp, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/rr4398/comp-lab-class-2023/Week5/Inputs
+Command line:
+  gmx_mpi grompp -f adp_T300.mdp -c adp.gro -p adp.top -o adp_T300.tpr
+
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Replacing old mdp entry 'xtc-grps' by 'compressed-x-grps'
+Replacing old mdp entry 'xtc-precision' by 'compressed-x-precision'
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 369175795
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -198061285
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 1869997054
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 1392316553
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -1938490321
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -217674321
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -1630968410
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -1465458183
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 230231614
+Setting the LD random seed to -796361202
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 904111555
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 376296215
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 797818596
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 2067098711
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 2091227043
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to 1133373171
+Setting the LD random seed to 1668916229
+Setting the LD random seed to -1375100717
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -155181616
+
+NOTE 1 [file adp_T300.mdp]:
+  The group cutoff scheme is deprecated since GROMACS 5.0 and will be
+  removed in a future release when all interaction forms are supported for
+  the verlet scheme. The verlet scheme already scales better, and it is
+  compatible with GPUs and other accelerators.
+
+Setting the LD random seed to -1404269465
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Generated 2211 of the 2211 1-4 parameter combinations
+Generated 2211 of the 2211 1-4 parameter combinations
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generated 2211 of the 2211 1-4 parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+turning all bonds into constraints...
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 300 K
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 300 K
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Generated 2211 of the 2211 1-4 parameter combinations
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+Analysing residue names:
+Analysing residue names:
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 0.5
+Generated 2211 of the 2211 1-4 parameter combinations
+Generated 2211 of the 2211 1-4 parameter combinations
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+Number of degrees of freedom in T-Coupling group System is 39.00
+Number of degrees of freedom in T-Coupling group System is 39.00
+Number of degrees of freedom in T-Coupling group System is 39.00
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+turning all bonds into constraints...
+Excluding 3 bonded neighbours molecule type 'Protein_chain_X'
+turning all bonds into constraints...
+Velocities were taken from a Maxwell distribution at 300 K
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+Velocities were taken from a Maxwell distribution at 300 K
+
+There was 1 note
+
+There was 1 note
+
+There was 1 note
+Analysing residue names:
+Analysing residue names:
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+Velocities were taken from a Maxwell distribution at 300 K
+Velocities were taken from a Maxwell distribution at 300 K
+There are:     3    Protein residues
+Analysing Protein...
+Analysing residue names:
+Number of degrees of freedom in T-Coupling group System is 39.00
+Velocities were taken from a Maxwell distribution at 300 K
+
+There was 1 note
+Velocities were taken from a Maxwell distribution at 300 K
+This run will generate roughly 3 Mb of data
+Analysing residue names:
+Number of degrees of freedom in T-Coupling group System is 39.00
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+Analysing residue names:
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+Analysing residue names:
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+Velocities were taken from a Maxwell distribution at 300 K
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+Velocities were taken from a Maxwell distribution at 300 K
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+Velocities were taken from a Maxwell distribution at 300 K
+Velocities were taken from a Maxwell distribution at 300 K
+Velocities were taken from a Maxwell distribution at 300 K
+Velocities were taken from a Maxwell distribution at 300 K
+
+Back Off! I just backed up adp_T300.tpr to ./#adp_T300.tpr.1#
+Velocities were taken from a Maxwell distribution at 300 K
+Velocities were taken from a Maxwell distribution at 300 K
+
+Sorry couldn't backup adp_T300.tpr to ./#adp_T300.tpr.1#
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+There are:     3    Protein residues
+Analysing Protein...
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 3 Mb of data
+Analysing residue names:
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 3 Mb of data
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 3 Mb of data
+Analysing residue names:
+This run will generate roughly 3 Mb of data
+Analysing residue names:
+Analysing residue names:
+Analysing residue names:
+There are:     3    Protein residues
+Analysing Protein...
+Number of degrees of freedom in T-Coupling group System is 39.00
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+Number of degrees of freedom in T-Coupling group System is 39.00
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+There are:     3    Protein residues
+Analysing Protein...
+Number of degrees of freedom in T-Coupling group System is 39.00
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+
+Back Off! I just backed up adp_T300.tpr to ./#adp_T300.tpr.2#
+
+Sorry couldn't backup adp_T300.tpr to ./#adp_T300.tpr.2#
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+Number of degrees of freedom in T-Coupling group System is 39.00
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+There are:     3    Protein residues
+Analysing Protein...
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+Number of degrees of freedom in T-Coupling group System is 39.00
+Number of degrees of freedom in T-Coupling group System is 39.00
+There are:     3    Protein residues
+Analysing Protein...
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+Number of degrees of freedom in T-Coupling group System is 39.00
+Number of degrees of freedom in T-Coupling group System is 39.00
+Number of degrees of freedom in T-Coupling group System is 39.00
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+
+There was 1 note
+
+There was 1 note
+
+There was 1 note
+Number of degrees of freedom in T-Coupling group System is 39.00
+
+There was 1 note
+This run will generate roughly 3 Mb of data
+
+There was 1 note
+
+Back Off! I just backed up adp_T300.tpr to ./#adp_T300.tpr.3#
+
+Sorry couldn't backup adp_T300.tpr to ./#adp_T300.tpr.3#
+
+Sorry couldn't backup adp_T300.tpr to ./#adp_T300.tpr.3#
+
+GROMACS reminds you: "There are only two things wrong with C++:  The initial concept and the implementation." (Bertrand Meyer)
+
+
+Back Off! I just backed up adp_T300.tpr to ./#adp_T300.tpr.3#
+
+Sorry couldn't backup adp_T300.tpr to ./#adp_T300.tpr.3#
+
+Back Off! I just backed up adp_T300.tpr to ./#adp_T300.tpr.3#
+
+Sorry couldn't backup adp_T300.tpr to ./#adp_T300.tpr.3#
+                      :-) GROMACS - gmx mdrun, 2018.3 (-:
+
+                            GROMACS is written by:
+     Emile Apol      Rossen Apostolov      Paul Bauer     Herman J.C. Berendsen
+    Par Bjelkmar    Aldert van Buuren   Rudi van Drunen     Anton Feenstra  
+  Gerrit Groenhof    Aleksei Iupinov   Christoph Junghans   Anca Hamuraru   
+ Vincent Hindriksen Dimitrios Karkoulis    Peter Kasson        Jiri Kraus    
+  Carsten Kutzner      Per Larsson      Justin A. Lemkul    Viveca Lindahl  
+  Magnus Lundborg   Pieter Meulenhoff    Erik Marklund      Teemu Murtola   
+    Szilard Pall       Sander Pronk      Roland Schulz     Alexey Shvetsov  
+   Michael Shirts     Alfons Sijbers     Peter Tieleman    Teemu Virolainen 
+ Christian Wennberg    Maarten Wolf   
+                           and the project leaders:
+        Mark Abraham, Berk Hess, Erik Lindahl, and David van der Spoel
+
+Copyright (c) 1991-2000, University of Groningen, The Netherlands.
+Copyright (c) 2001-2017, The GROMACS development team at
+Uppsala University, Stockholm University and
+the Royal Institute of Technology, Sweden.
+check out http://www.gromacs.org for more information.
+
+GROMACS is free software; you can redistribute it and/or modify it
+under the terms of the GNU Lesser General Public License
+as published by the Free Software Foundation; either version 2.1
+of the License, or (at your option) any later version.
+
+GROMACS:      gmx mdrun, version 2018.3
+Executable:   /share/apps/gromacs/2018.3/openmpi/intel/bin/gmx_mpi
+Data prefix:  /share/apps/gromacs/2018.3/openmpi/intel
+Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/rr4398/comp-lab-class-2023/Week5/Inputs
+Command line:
+  gmx_mpi mdrun -v -deffnm adp_T300
+
+Compiled SIMD: None, but for this host/run AVX_512 might be better (see log).
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file adp_T300.tpr, VERSION 2018.3 (single precision)
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2018.3
+Source file: src/gromacs/domdec/domdec.cpp (line 6594)
+MPI rank:    0 (out of 20)
+
+Fatal error:
+There is no domain decomposition for 20 ranks that is compatible with the
+given box and a minimum cell size of 0.895375 nm
+Change the number of ranks or mdrun option -rcon or -dds or your LINCS
+settings
+Look in the log file for details on the domain decomposition
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[31902,1],18]
+  Exit code:    1
+--------------------------------------------------------------------------
