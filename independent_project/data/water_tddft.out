@@ -1,0 +1,450 @@
+  Threads set to 4 by Python driver.
+
+Scratch directory: /tmp/
+
+*** tstart() called on gr017.hpc.nyu.edu
+*** at Tue Dec 19 17:49:50 2023
+
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1   entry O          line   198 file /ext3/miniconda3/share/psi4/basis/cc-pvdz.gbs 
+    atoms 2-3 entry H          line    22 file /ext3/miniconda3/share/psi4/basis/cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        4 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c2v
+    Full point group: C2v
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         O           -0.000000000000     0.000000000000     0.066656498530    15.994914619570
+         H           -0.000000000000     0.759500000000    -0.528943501470     1.007825032230
+         H            0.000000000000    -0.759500000000    -0.528943501470     1.007825032230
+
+  Running in c2v symmetry.
+
+  Rotational constants: A =     26.54712  B =     14.49859  C =      9.37725 [cm^-1]
+  Rotational constants: A = 795862.58407  B = 434656.82785  C = 281122.83548 [MHz]
+  Nuclear repulsion =    9.120624682226055
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 10
+  Nalpha       = 5
+  Nbeta        = 5
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVDZ
+    Blend: CC-PVDZ
+    Number of shells: 12
+    Number of basis functions: 24
+    Number of Cartesian functions: 25
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 5.1.5
+    S. Lehtola, C. Steigemann, M. J. Oliveira, and M. A. Marques, SoftwareX 7, 1 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch, J. Phys. Chem. 98, 11623 (1994) (10.1021/j100096a001)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => LibXC Density Thresholds  <==
+
+    XC_HYB_GGA_XC_B3LYP:  1.00E-15 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =          66186
+    Total Blocks           =            555
+    Max Points             =            256
+    Max Functions          =             24
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (CC-PVDZ AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1   entry O          line   221 file /ext3/miniconda3/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 2-3 entry H          line    51 file /ext3/miniconda3/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.001 GiB; user supplied 0.320 GiB. Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               4
+    Memory [MiB]:               327
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       0.0000
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (CC-PVDZ AUX)
+    Blend: CC-PVDZ-JKFIT
+    Number of shells: 42
+    Number of basis functions: 116
+    Number of Cartesian functions: 131
+    Spherical Harmonics?: true
+    Max angular momentum: 3
+
+  Cached 100.0% of DFT collocation blocks in 0.046 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 3.2977969260E-02.
+  Reciprocal condition number of the overlap matrix is 1.0490559812E-02.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A1        11      11 
+     A2         2       2 
+     B1         4       4 
+     B2         7       7 
+   -------------------------
+    Total      24      24
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter SAD:   -76.10148064157062   -7.61015e+01   0.00000e+00 
+   @DF-RKS iter   1:   -76.27292101403212   -1.71440e-01   4.60102e-02 DIIS/ADIIS
+   @DF-RKS iter   2:   -76.12678989798782    1.46131e-01   6.42787e-02 DIIS/ADIIS
+   @DF-RKS iter   3:   -76.41838857479058   -2.91599e-01   5.87577e-03 DIIS/ADIIS
+   @DF-RKS iter   4:   -76.42060075908108   -2.21218e-03   1.55241e-04 DIIS/ADIIS
+   @DF-RKS iter   5:   -76.42060250595426   -1.74687e-06   1.47022e-05 DIIS
+   @DF-RKS iter   6:   -76.42060251885742   -1.29032e-08   2.02289e-06 DIIS
+   @DF-RKS iter   7:   -76.42060251916884   -3.11417e-10   1.03667e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+   Electrons on quadrature grid:
+      Ntotal   =   10.0000001337 ; deviation = 1.337e-07 
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A1   -19.123631     2A1    -0.992518     1B2    -0.509944  
+       3A1    -0.365546     1B1    -0.287675  
+
+    Virtual:                                                              
+
+       4A1     0.050237     2B2     0.126095     3B2     0.554672  
+       5A1     0.610708     6A1     0.902429     2B1     0.918506  
+       4B2     0.995451     7A1     1.199503     1A2     1.233858  
+       3B1     1.422647     8A1     1.592684     5B2     1.667537  
+       6B2     2.099229     9A1     2.138082     4B1     2.918813  
+       2A2     2.957232    10A1     3.126442    11A1     3.455621  
+       7B2     3.733320  
+
+    Final Occupation by Irrep:
+             A1    A2    B1    B2 
+    DOCC [     3,    0,    1,    1 ]
+    NA   [     3,    0,    1,    1 ]
+    NB   [     3,    0,    1,    1 ]
+
+  @DF-RKS Final Energy:   -76.42060251916884
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =              9.1206246822260546
+    One-Electron Energy =                -123.0885181439383018
+    Two-Electron Energy =                  45.1194390853317202
+    DFT Exchange-Correlation Energy =      -7.5721481427883148
+    Empirical Dispersion Energy =           0.0000000000000000
+    VV10 Nonlocal Energy =                  0.0000000000000000
+    Total Energy =                        -76.4206025191688525
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :          0.0000000            0.0000000            0.0000000
+ Dipole Y            :          0.0000000            0.0000000            0.0000000
+ Dipole Z            :          0.2349185           -0.9914165           -0.7564980
+ Magnitude           :                                                    0.7564980
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on gr017.hpc.nyu.edu at Tue Dec 19 17:49:51 2023
+Module time:
+	user time   =       1.95 seconds =       0.03 minutes
+	system time =       0.08 seconds =       0.00 minutes
+	total time  =          1 seconds =       0.02 minutes
+Total time:
+	user time   =      70.59 seconds =       1.18 minutes
+	system time =       3.56 seconds =       0.06 minutes
+	total time  =        135 seconds =       2.25 minutes
+
+******************************************************************************************
+**********                               WARNING                                **********
+**********       The names of excited state variables changed between 1.5       **********
+**********     and 1.6. For a quick solution, remove the symmetry specifier     **********
+**********   from the variable name. For full details, see 'Notes on Psivars'   **********
+**********                        in the documentation.                         **********
+******************************************************************************************
+
+
+
+         ---------------------------------------------------------
+                         TDSCF excitation energies                
+                 by Andrew M. James and Daniel G. A. Smith        
+         ---------------------------------------------------------
+
+  ==> Options <==
+
+     Residual threshold  : 1.0000e-04
+     Initial guess       : denominators
+     Reference           : RHF
+     Solver type         : RPA (Hamiltonian)
+
+
+  ==> Requested Excitations <==
+
+      3 singlet states with A1 symmetry
+      3 singlet states with A2 symmetry
+      2 singlet states with B1 symmetry
+      2 singlet states with B2 symmetry
+
+
+  ==> Seeking the lowest 3 singlet states with A1 symmetry
+
+                        Generalized Hamiltonian Solver                       
+                              By Andrew M. James                             
+
+  ==> Options <==
+
+    Max number of iterations        = 60   
+    Eigenvector tolerance           = 1.0000e-04
+    Max number of expansion vectors = 600  
+
+  => Iterations <=
+                              Max[D[value]]     Max[|R|]   # vectors
+  HamiltonianSolver iter   1:   9.08879e-01  9.48348e-02     12      
+  HamiltonianSolver iter   2:   1.66739e-03  7.22618e-03     18      
+  HamiltonianSolver iter   3:   3.18393e-06  9.62168e-04     24      
+  HamiltonianSolver iter   4:   1.34643e-08  7.73296e-05     28      Converged
+
+
+  ==> Seeking the lowest 3 singlet states with A2 symmetry
+
+                        Generalized Hamiltonian Solver                       
+                              By Andrew M. James                             
+
+  ==> Options <==
+
+    Max number of iterations        = 60   
+    Eigenvector tolerance           = 1.0000e-04
+    Max number of expansion vectors = 600  
+
+  => Iterations <=
+                              Max[D[value]]     Max[|R|]   # vectors
+  HamiltonianSolver iter   1:   1.18332e+00  3.45093e-02     12      
+  HamiltonianSolver iter   2:   1.06681e-04  3.32166e-13     15      Converged
+
+
+  ==> Seeking the lowest 2 singlet states with B1 symmetry
+
+                        Generalized Hamiltonian Solver                       
+                              By Andrew M. James                             
+
+  ==> Options <==
+
+    Max number of iterations        = 60   
+    Eigenvector tolerance           = 1.0000e-04
+    Max number of expansion vectors = 400  
+
+  => Iterations <=
+                              Max[D[value]]     Max[|R|]   # vectors
+  HamiltonianSolver iter   1:   8.28175e-01  1.48621e-01      8      
+  HamiltonianSolver iter   2:   2.20993e-03  1.76857e-02     12      
+  HamiltonianSolver iter   3:   1.58724e-05  6.84074e-04     16      
+  HamiltonianSolver iter   4:   1.05009e-08  7.98891e-05     18      Converged
+
+
+  ==> Seeking the lowest 2 singlet states with B2 symmetry
+
+                        Generalized Hamiltonian Solver                       
+                              By Andrew M. James                             
+
+  ==> Options <==
+
+    Max number of iterations        = 60   
+    Eigenvector tolerance           = 1.0000e-04
+    Max number of expansion vectors = 400  
+
+  => Iterations <=
+                              Max[D[value]]     Max[|R|]   # vectors
+  HamiltonianSolver iter   1:   5.10861e-01  1.15289e-01      8      
+  HamiltonianSolver iter   2:   1.45014e-03  1.25881e-02     12      
+  HamiltonianSolver iter   3:   6.91868e-06  1.38153e-03     16      
+  HamiltonianSolver iter   4:   8.07283e-08  9.89646e-05     20      Converged
+
+******************************************************************************************
+**********                               WARNING                                **********
+**********  Length-gauge rotatory strengths are **NOT** gauge-origin invariant  **********
+******************************************************************************************
+
+                                    Excitation Energy         Total Energy        Oscillator Strength             Rotatory Strength       
+     #   Sym: GS->ES (Trans)        au              eV              au          au (length)    au (velocity)    au (length)    au (velocity) 
+    ---- -------------------- --------------- --------------- --------------- --------------- --------------- --------------- ---------------
+     1      A1->B1 (1 B1)      0.27730         7.54559        -76.14331        0.0226          0.1185          0.0000         -0.0000        
+     2      A1->A2 (1 A2)      0.34561         9.40456        -76.07499        0.0000          0.0000          0.0000         -0.0000        
+     3      A1->A1 (1 A1)      0.36461         9.92167        -76.05599        0.0816          0.1852          0.0000         -0.0000        
+     4      A1->B2 (1 B2)      0.43673         11.88406       -75.98387        0.0571          0.0656          0.0000         -0.0000        
+     5      A1->B2 (1 B2)      0.51012         13.88101       -75.91048        0.2852          0.3015          0.0000         -0.0000        
+     6      A1->A1 (1 A1)      0.61716         16.79385       -75.80344        0.1222          0.1345          0.0000         -0.0000        
+     7      A1->A2 (1 A2)      0.75912         20.65667       -75.66148        0.0000          0.0000          0.0000         -0.0000        
+     8      A1->B1 (1 B1)      0.82595         22.47522       -75.59465        0.0630          0.0597          0.0000         -0.0000        
+     9      A1->A1 (1 A1)      0.90801         24.70830       -75.51259        0.0032          0.0110          0.0000         -0.0000        
+     10     A1->A2 (1 A2)      1.18321         32.19680       -75.23739        0.0000          0.0000          0.0000         -0.0000        
+
+
+
+Contributing excitations and de-excitations
+Only contributions with abs(coeff) > 1.00e-01 will be printed:
+
+Excited State    1 (1 B1):   0.27730 au   164.31 nm f = 0.0226
+  Sums of squares: Xssq =  1.000830e+00; Yssq =  8.302594e-04; Xssq - Yssq =  1.000000e+00
+      1b1  ->   4a1     0.999986 (99.997%)
+
+Excited State    2 (1 A2):   0.34561 au   131.83 nm f = 0.0000
+  Sums of squares: Xssq =  1.000159e+00; Yssq =  1.593910e-04; Xssq - Yssq =  1.000000e+00
+      1b1  ->   2b2     0.998931 (99.786%)
+
+Excited State    3 (1 A1):   0.36461 au   124.96 nm f = 0.0816
+  Sums of squares: Xssq =  1.001727e+00; Yssq =  1.727294e-03; Xssq - Yssq =  1.000000e+00
+      3a1  ->   4a1    -0.995148 (99.032%)
+
+Excited State    4 (1 B2):   0.43673 au   104.33 nm f = 0.0571
+  Sums of squares: Xssq =  1.001095e+00; Yssq =  1.094580e-03; Xssq - Yssq =  1.000000e+00
+      3a1  ->   2b2     0.994058 (98.815%)
+      1b2  ->   4a1     0.100776 ( 1.016%)
+
+Excited State    5 (1 B2):   0.51012 au   89.32 nm f = 0.2852
+  Sums of squares: Xssq =  1.001056e+00; Yssq =  1.055835e-03; Xssq - Yssq =  1.000000e+00
+      3a1  ->   2b2     0.100056 ( 1.001%)
+      1b2  ->   4a1    -0.994036 (98.811%)
+
+Excited State    6 (1 A1):   0.61716 au   73.83 nm f = 0.1222
+  Sums of squares: Xssq =  1.004827e+00; Yssq =  4.827121e-03; Xssq - Yssq =  1.000000e+00
+      1b1  ->   2b1     0.104775 ( 1.098%)
+      1b2  ->   2b2    -0.982904 (96.610%)
+
+Excited State    7 (1 A2):   0.75912 au   60.02 nm f = 0.0000
+  Sums of squares: Xssq =  1.000071e+00; Yssq =  7.085647e-05; Xssq - Yssq =  1.000000e+00
+      1b1  ->   3b2    -0.999064 (99.813%)
+
+Excited State    8 (1 B1):   0.82595 au   55.16 nm f = 0.0630
+  Sums of squares: Xssq =  1.000635e+00; Yssq =  6.351891e-04; Xssq - Yssq =  1.000000e+00
+      1b1  ->   5a1    -0.996977 (99.396%)
+
+Excited State    9 (1 A1):   0.90801 au   50.18 nm f = 0.0032
+  Sums of squares: Xssq =  1.000476e+00; Yssq =  4.762378e-04; Xssq - Yssq =  1.000000e+00
+      2a1  ->   4a1    -0.174177 ( 3.034%)
+      3a1  ->   5a1     0.966656 (93.442%)
+      1b2  ->   3b2    -0.150082 ( 2.252%)
+
+Excited State   10 (1 A2):   1.18321 au   38.51 nm f = 0.0000
+  Sums of squares: Xssq =  1.000026e+00; Yssq =  2.618158e-05; Xssq - Yssq =  1.000000e+00
+      1b1  ->   4b2    -0.999559 (99.912%)
+
+
+******************************************************************************************
+**********                               WARNING                                **********
+**********       The names of excited state variables changed between 1.5       **********
+**********     and 1.6. For a quick solution, remove the symmetry specifier     **********
+**********   from the variable name. For full details, see 'Notes on Psivars'   **********
+**********                        in the documentation.                         **********
+******************************************************************************************
+
